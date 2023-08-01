@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="onInit()">
+    <h1>Cinema</h1>
+    <table class="cinema">
+        <tbody class="cinema-seats">
+        </tbody>
+    </table>
+
+    <div hidden class="popup">
+        <p><span class="seat-details"></span></p>
+        <p><span class="price"></span></p>
+        
+        <button data-i="" data-j="" onclick="onBookSeat(this)" 
+                                    class="btn-book">Book</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
